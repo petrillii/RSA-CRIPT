@@ -1,0 +1,12 @@
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\bin\Debug\net6.0\RSA_CRYPT.Repository.deps.json
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\bin\Debug\net6.0\RSA_CRYPT.Repository.dll
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\bin\Debug\net6.0\RSA_CRYPT.Repository.pdb
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\RSA_CRYPT.Repository.csproj.AssemblyReference.cache
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\RSA_CRYPT.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\RSA_CRYPT.Repository.AssemblyInfoInputs.cache
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\RSA_CRYPT.Repository.AssemblyInfo.cs
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\RSA_CRYPT.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\RSA_CRYPT.Repository.dll
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\refint\RSA_CRYPT.Repository.dll
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\RSA_CRYPT.Repository.pdb
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.Repository\obj\Debug\net6.0\ref\RSA_CRYPT.Repository.dll

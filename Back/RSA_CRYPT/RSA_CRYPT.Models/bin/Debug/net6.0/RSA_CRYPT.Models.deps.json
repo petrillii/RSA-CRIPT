@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RSA_CRYPT.Models/1.0.0": {
+        "runtime": {
+          "RSA_CRYPT.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RSA_CRYPT.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

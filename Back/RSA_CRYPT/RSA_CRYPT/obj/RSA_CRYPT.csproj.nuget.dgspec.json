@@ -1,0 +1,421 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT\\RSA_CRYPT.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL.Infra\\RSA_CRYPT.BLL.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL.Infra\\RSA_CRYPT.BLL.Infra.csproj",
+        "projectName": "RSA_CRYPT.BLL.Infra",
+        "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL.Infra\\RSA_CRYPT.BLL.Infra.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL\\RSA_CRYPT.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL\\RSA_CRYPT.BLL.csproj",
+        "projectName": "RSA_CRYPT.BLL",
+        "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL\\RSA_CRYPT.BLL.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.IoC\\RSA_CRYPT.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.IoC\\RSA_CRYPT.IoC.csproj",
+        "projectName": "RSA_CRYPT.IoC",
+        "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.IoC\\RSA_CRYPT.IoC.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Models\\RSA_CRYPT.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Models\\RSA_CRYPT.Models.csproj",
+        "projectName": "RSA_CRYPT.Models",
+        "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Models\\RSA_CRYPT.Models.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository.Infra\\RSA_CRYPT.Repository.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository.Infra\\RSA_CRYPT.Repository.Infra.csproj",
+        "projectName": "RSA_CRYPT.Repository.Infra",
+        "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository.Infra\\RSA_CRYPT.Repository.Infra.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj",
+        "projectName": "RSA_CRYPT.Repository",
+        "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT\\RSA_CRYPT.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT\\RSA_CRYPT.csproj",
+        "projectName": "RSA_CRYPT",
+        "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT\\RSA_CRYPT.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL.Infra\\RSA_CRYPT.BLL.Infra.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL.Infra\\RSA_CRYPT.BLL.Infra.csproj"
+              },
+              "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL\\RSA_CRYPT.BLL.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.BLL\\RSA_CRYPT.BLL.csproj"
+              },
+              "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.IoC\\RSA_CRYPT.IoC.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.IoC\\RSA_CRYPT.IoC.csproj"
+              },
+              "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Models\\RSA_CRYPT.Models.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Models\\RSA_CRYPT.Models.csproj"
+              },
+              "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository.Infra\\RSA_CRYPT.Repository.Infra.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository.Infra\\RSA_CRYPT.Repository.Infra.csproj"
+              },
+              "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

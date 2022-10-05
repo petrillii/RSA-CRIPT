@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RSA_CRYPT.BLL.Infra/1.0.0": {
+        "runtime": {
+          "RSA_CRYPT.BLL.Infra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RSA_CRYPT.BLL.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

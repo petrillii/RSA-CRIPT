@@ -1,0 +1,12 @@
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\bin\Debug\net6.0\RSA_CRYPT.BLL.Infra.deps.json
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\bin\Debug\net6.0\RSA_CRYPT.BLL.Infra.dll
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\bin\Debug\net6.0\RSA_CRYPT.BLL.Infra.pdb
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\RSA_CRYPT.BLL.Infra.csproj.AssemblyReference.cache
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\RSA_CRYPT.BLL.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\RSA_CRYPT.BLL.Infra.AssemblyInfoInputs.cache
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\RSA_CRYPT.BLL.Infra.AssemblyInfo.cs
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\RSA_CRYPT.BLL.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\RSA_CRYPT.BLL.Infra.dll
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\refint\RSA_CRYPT.BLL.Infra.dll
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\RSA_CRYPT.BLL.Infra.pdb
+C:\Users\Petrilli\source\repos\RSA_CRYPT\RSA_CRYPT.BLL.Infra\obj\Debug\net6.0\ref\RSA_CRYPT.BLL.Infra.dll
