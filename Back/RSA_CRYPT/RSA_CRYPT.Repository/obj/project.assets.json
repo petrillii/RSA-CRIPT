@@ -8,26 +8,32 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Petrilli\\.nuget\\packages\\": {}
+    "C:\\Users\\eduardo.petrilli\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj",
+      "projectUniqueName": "C:\\Projetos\\PESSOAL\\RSA-CRIPT\\Back\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj",
       "projectName": "RSA_CRYPT.Repository",
-      "projectPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj",
-      "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository\\obj\\",
+      "projectPath": "C:\\Projetos\\PESSOAL\\RSA-CRIPT\\Back\\RSA_CRYPT\\RSA_CRYPT.Repository\\RSA_CRYPT.Repository.csproj",
+      "packagesPath": "C:\\Users\\eduardo.petrilli\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\PESSOAL\\RSA-CRIPT\\Back\\RSA_CRYPT\\RSA_CRYPT.Repository\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eduardo.petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -51,8 +57,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

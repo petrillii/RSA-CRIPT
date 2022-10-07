@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Q+DXq2OdT+ILgiSm754MuFk9ddujR9P+vnYueWF4XZjaMBWer0NVoKLOM7BurmAsW5DL8Wj8T0YrIXsnQwwdw==",
+  "dgSpecHash": "58i+JMlEfld5aY0ROMMrgis0KBZpJfNpKJiuZ+F7kJwCJfxHSCOQ6OyoUrIog2/Xag17YdbT/RLl0z6EgnM64w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Petrilli\\source\\repos\\RSA_CRYPT\\RSA_CRYPT.Repository.Infra\\RSA_CRYPT.Repository.Infra.csproj",
+  "projectFilePath": "C:\\Projetos\\PESSOAL\\RSA-CRIPT\\Back\\RSA_CRYPT\\RSA_CRYPT.Repository.Infra\\RSA_CRYPT.Repository.Infra.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
