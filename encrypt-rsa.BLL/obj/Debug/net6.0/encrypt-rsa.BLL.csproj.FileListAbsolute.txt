@@ -1,0 +1,17 @@
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\encrypt-rsa.BLL.csproj.AssemblyReference.cache
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\encrypt-rsa.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\encrypt-rsa.BLL.AssemblyInfoInputs.cache
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\encrypt-rsa.BLL.AssemblyInfo.cs
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\encrypt-rsa.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\bin\Debug\net6.0\encrypt-rsa.BLL.deps.json
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\bin\Debug\net6.0\encrypt-rsa.BLL.dll
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\bin\Debug\net6.0\encrypt-rsa.BLL.pdb
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\bin\Debug\net6.0\encrypt-rsa.BLL.Infra.dll
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\bin\Debug\net6.0\encrypt-rsa.Model.dll
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\bin\Debug\net6.0\encrypt-rsa.BLL.Infra.pdb
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\bin\Debug\net6.0\encrypt-rsa.Model.pdb
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\encrypt-rsa.BLL.csproj.CopyComplete
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\encrypt-rsa.BLL.dll
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\refint\encrypt-rsa.BLL.dll
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\encrypt-rsa.BLL.pdb
+C:\Users\Petrilli\OneDrive - Fatec Centro Paula Souza\Documents\Fatec\5º semestre\Criptografia\RSA-CRIPT\encrypt-rsa.BLL\obj\Debug\net6.0\ref\encrypt-rsa.BLL.dll

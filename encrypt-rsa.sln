@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "encrypt-rsa", "encrypt-rsa\encrypt-rsa.csproj", "{B0303CDF-BF46-4DC5-8030-F4E62FB4144D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypt-rsa.BLL", "encrypt-rsa.BLL\encrypt-rsa.BLL.csproj", "{72D79488-C11E-425E-B100-AB3B173AB91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypt-rsa.BLL.Infra", "encrypt-rsa.BLL.Infra\encrypt-rsa.BLL.Infra.csproj", "{C577561D-ECA5-457A-BF67-DFA71E3E10F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypt-rsa.Model", "encrypt-rsa.Model\encrypt-rsa.Model.csproj", "{9777F169-BD77-42B6-8606-4C1A21C5FEBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0303CDF-BF46-4DC5-8030-F4E62FB4144D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0303CDF-BF46-4DC5-8030-F4E62FB4144D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0303CDF-BF46-4DC5-8030-F4E62FB4144D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0303CDF-BF46-4DC5-8030-F4E62FB4144D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D79488-C11E-425E-B100-AB3B173AB91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D79488-C11E-425E-B100-AB3B173AB91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D79488-C11E-425E-B100-AB3B173AB91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D79488-C11E-425E-B100-AB3B173AB91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C577561D-ECA5-457A-BF67-DFA71E3E10F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C577561D-ECA5-457A-BF67-DFA71E3E10F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C577561D-ECA5-457A-BF67-DFA71E3E10F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C577561D-ECA5-457A-BF67-DFA71E3E10F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9777F169-BD77-42B6-8606-4C1A21C5FEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9777F169-BD77-42B6-8606-4C1A21C5FEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9777F169-BD77-42B6-8606-4C1A21C5FEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9777F169-BD77-42B6-8606-4C1A21C5FEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC9C7EDF-AB09-4A0D-8F7A-B69D4F4D36D3}
+	EndGlobalSection
+EndGlobal

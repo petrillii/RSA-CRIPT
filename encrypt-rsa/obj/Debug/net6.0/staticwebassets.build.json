@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "j1GxYKcfBjGP8K4kSlYqSfYQ35WbMQ1jt0p9ur/b76I=",
+  "Source": "encrypt-rsa",
+  "BasePath": "_content/encrypt-rsa",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

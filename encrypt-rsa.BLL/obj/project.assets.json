@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "encrypt-rsa.BLL.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "encrypt-rsa.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/encrypt-rsa.BLL.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/encrypt-rsa.BLL.Infra.dll": {}
+        }
+      },
+      "encrypt-rsa.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/encrypt-rsa.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/encrypt-rsa.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "encrypt-rsa.BLL.Infra/1.0.0": {
+      "type": "project",
+      "path": "../encrypt-rsa.BLL.Infra/encrypt-rsa.BLL.Infra.csproj",
+      "msbuildProject": "../encrypt-rsa.BLL.Infra/encrypt-rsa.BLL.Infra.csproj"
+    },
+    "encrypt-rsa.Model/1.0.0": {
+      "type": "project",
+      "path": "../encrypt-rsa.Model/encrypt-rsa.Model.csproj",
+      "msbuildProject": "../encrypt-rsa.Model/encrypt-rsa.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "encrypt-rsa.BLL.Infra >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Petrilli\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\encrypt-rsa.BLL.csproj",
+      "projectName": "encrypt-rsa.BLL",
+      "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\encrypt-rsa.BLL.csproj",
+      "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj": {
+              "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

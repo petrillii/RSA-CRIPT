@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa\\encrypt-rsa.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj",
+        "projectName": "encrypt-rsa.BLL.Infra",
+        "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\encrypt-rsa.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\encrypt-rsa.BLL.csproj",
+        "projectName": "encrypt-rsa.BLL",
+        "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\encrypt-rsa.BLL.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj",
+        "projectName": "encrypt-rsa.Model",
+        "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa\\encrypt-rsa.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa\\encrypt-rsa.csproj",
+        "projectName": "encrypt-rsa",
+        "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa\\encrypt-rsa.csproj",
+        "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL.Infra\\encrypt-rsa.BLL.Infra.csproj"
+              },
+              "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\encrypt-rsa.BLL.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.BLL\\encrypt-rsa.BLL.csproj"
+              },
+              "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj": {
+                "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
