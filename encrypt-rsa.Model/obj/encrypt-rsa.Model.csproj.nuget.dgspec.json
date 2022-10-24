@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj": {}
+    "D:\\Projetos\\encrypt-rsa\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj": {
+    "D:\\Projetos\\encrypt-rsa\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj",
+        "projectUniqueName": "D:\\Projetos\\encrypt-rsa\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj",
         "projectName": "encrypt-rsa.Model",
-        "projectPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj",
+        "projectPath": "D:\\Projetos\\encrypt-rsa\\encrypt-rsa.Model\\encrypt-rsa.Model.csproj",
         "packagesPath": "C:\\Users\\Petrilli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Petrilli\\OneDrive - Fatec Centro Paula Souza\\Documents\\Fatec\\5º semestre\\Criptografia\\RSA-CRIPT\\encrypt-rsa.Model\\obj\\",
+        "outputPath": "D:\\Projetos\\encrypt-rsa\\encrypt-rsa.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Petrilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

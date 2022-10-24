@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace encrypt_rsa.BLL.Infra.Services.Interfaces
 {
-    public interface IEncryptService
+    public interface IUserService
     {
-        EncryptMessageDto EncryptMessage(ConfigRSADto config);
+        Task CreateUser(UserDto user);
+        Task<UserDto> AuthenticateUser(AuthenticateUserDto user);
     }
 }

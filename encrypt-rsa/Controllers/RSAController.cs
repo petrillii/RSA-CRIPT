@@ -8,27 +8,24 @@ namespace encrypt_rsa.Controllers
     [Route("[controller]")]
     public class RSAController : ControllerBase
     {
-        private readonly IEncryptService encryptService;
-        private readonly IDecryptService decryptService;
+        private readonly IRSAService rsaService;
         private readonly ILogger<RSAController> _logger;
 
         public RSAController(
             ILogger<RSAController> logger,
-            IEncryptService _encryptService,
-            IDecryptService _decryptService
+            IRSAService _rsaService
         )
         {
             _logger = logger;
-            encryptService = _encryptService;
-            decryptService = _decryptService;
+            rsaService = _rsaService;
         }
 
         [HttpPost("Criptografar")]
-        public async Task<ActionResult<EncryptMessageDto>> EncryptRSA([FromBody] ConfigRSADto config)
+        public async Task<ActionResult<string>> EncryptRSA(string msg)
         {
             try
             {
-                return encryptService.EncryptMessage(config);
+                return rsaService.EncryptPassword(msg);
             }
             catch(Exception ex)
             {
@@ -37,11 +34,11 @@ namespace encrypt_rsa.Controllers
         }
 
         [HttpPost("Descriptografar")]
-        public async Task<ActionResult<EncryptMessageDto>> DecryptRSA([FromBody] ConfigRSADto config)
+        public async Task<ActionResult<string>> DecryptRSA(string msg)
         {
             try
             {
-                return decryptService.DecryptMessage(config);
+                return rsaService.DecryptPassword(msg);
             }
             catch (Exception ex)
             {

@@ -8,13 +8,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.24.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\encrypt-rsa.BLL.Infra\encrypt-rsa.BLL.Infra.csproj" />
     <ProjectReference Include="..\encrypt-rsa.BLL\encrypt-rsa.BLL.csproj" />
+    <ProjectReference Include="..\encrypt-rsa.IoC\encrypt-rsa.IoC.csproj" />
     <ProjectReference Include="..\encrypt-rsa.Model\encrypt-rsa.Model.csproj" />
+    <ProjectReference Include="..\encrypt-rsa.Repository.Infra\encrypt-rsa.Repository.Infra.csproj" />
+    <ProjectReference Include="..\encrypt-rsa.Repository\encrypt-rsa.Repository.csproj" />
   </ItemGroup>
 
 </Project>

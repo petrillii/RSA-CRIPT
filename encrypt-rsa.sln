@@ -5,11 +5,17 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "encrypt-rsa", "encrypt-rsa\encrypt-rsa.csproj", "{B0303CDF-BF46-4DC5-8030-F4E62FB4144D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypt-rsa.BLL", "encrypt-rsa.BLL\encrypt-rsa.BLL.csproj", "{72D79488-C11E-425E-B100-AB3B173AB91E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "encrypt-rsa.BLL", "encrypt-rsa.BLL\encrypt-rsa.BLL.csproj", "{72D79488-C11E-425E-B100-AB3B173AB91E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypt-rsa.BLL.Infra", "encrypt-rsa.BLL.Infra\encrypt-rsa.BLL.Infra.csproj", "{C577561D-ECA5-457A-BF67-DFA71E3E10F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "encrypt-rsa.BLL.Infra", "encrypt-rsa.BLL.Infra\encrypt-rsa.BLL.Infra.csproj", "{C577561D-ECA5-457A-BF67-DFA71E3E10F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypt-rsa.Model", "encrypt-rsa.Model\encrypt-rsa.Model.csproj", "{9777F169-BD77-42B6-8606-4C1A21C5FEBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "encrypt-rsa.Model", "encrypt-rsa.Model\encrypt-rsa.Model.csproj", "{9777F169-BD77-42B6-8606-4C1A21C5FEBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "encrypt-rsa.Repository", "encrypt-rsa.Repository\encrypt-rsa.Repository.csproj", "{D0550E3D-85C8-4E94-8145-9E53F50572D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypt-rsa.Repository.Infra", "encrypt-rsa.Repository.Infra\encrypt-rsa.Repository.Infra.csproj", "{21AE1E8E-A689-42E0-A2B0-4680443ECAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypt-rsa.IoC", "encrypt-rsa.IoC\encrypt-rsa.IoC.csproj", "{6EF5E030-F9B2-41AD-8697-F6BDE3A288D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{9777F169-BD77-42B6-8606-4C1A21C5FEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9777F169-BD77-42B6-8606-4C1A21C5FEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9777F169-BD77-42B6-8606-4C1A21C5FEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0550E3D-85C8-4E94-8145-9E53F50572D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0550E3D-85C8-4E94-8145-9E53F50572D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0550E3D-85C8-4E94-8145-9E53F50572D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0550E3D-85C8-4E94-8145-9E53F50572D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21AE1E8E-A689-42E0-A2B0-4680443ECAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AE1E8E-A689-42E0-A2B0-4680443ECAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AE1E8E-A689-42E0-A2B0-4680443ECAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AE1E8E-A689-42E0-A2B0-4680443ECAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF5E030-F9B2-41AD-8697-F6BDE3A288D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF5E030-F9B2-41AD-8697-F6BDE3A288D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF5E030-F9B2-41AD-8697-F6BDE3A288D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF5E030-F9B2-41AD-8697-F6BDE3A288D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

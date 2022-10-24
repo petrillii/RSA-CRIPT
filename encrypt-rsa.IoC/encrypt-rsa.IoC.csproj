@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>encrypt_rsa.IoC</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\encrypt-rsa.BLL.Infra\encrypt-rsa.BLL.Infra.csproj" />
+    <ProjectReference Include="..\encrypt-rsa.BLL\encrypt-rsa.BLL.csproj" />
+    <ProjectReference Include="..\encrypt-rsa.Repository.Infra\encrypt-rsa.Repository.Infra.csproj" />
+    <ProjectReference Include="..\encrypt-rsa.Repository\encrypt-rsa.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
