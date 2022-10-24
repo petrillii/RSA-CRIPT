@@ -35,6 +35,7 @@
     <ProjectReference Include="..\encrypt-rsa.Model\encrypt-rsa.Model.csproj" />
     <ProjectReference Include="..\encrypt-rsa.Repository.Infra\encrypt-rsa.Repository.Infra.csproj" />
     <ProjectReference Include="..\encrypt-rsa.Repository\encrypt-rsa.Repository.csproj" />
+    <ProjectReference Include="..\RSA-provider\RSA-provider.csproj" />
   </ItemGroup>
 
 </Project>

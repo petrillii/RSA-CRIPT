@@ -60,6 +60,7 @@ namespace encrypt_rsa.BLL.Services
 
         public string Encrypt(string text)
         {
+            byte[] raw;
             string msg = "";
             List<int> ASCIIList = new List<int>();
 

@@ -19,6 +19,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.10",
           "Newtonsoft.Json": "13.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
+          "RSA-provider": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "encrypt-rsa.BLL": "1.0.0",
           "encrypt-rsa.BLL.Infra": "1.0.0",
@@ -2401,6 +2402,11 @@
         "runtime": {
           "encrypt-rsa.Repository.Infra.dll": {}
         }
+      },
+      "RSA-provider/1.0.0": {
+        "runtime": {
+          "RSA-provider.dll": {}
+        }
       }
     }
   },
@@ -3703,6 +3709,11 @@
       "sha512": ""
     },
     "encrypt-rsa.Repository.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RSA-provider/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

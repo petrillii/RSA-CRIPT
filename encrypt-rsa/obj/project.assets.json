@@ -3727,6 +3727,16 @@
         "runtime": {
           "bin/placeholder/encrypt-rsa.Repository.Infra.dll": {}
         }
+      },
+      "RSA-provider/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RSA-provider.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RSA-provider.dll": {}
+        }
       }
     }
   },
@@ -10368,6 +10378,11 @@
       "type": "project",
       "path": "../encrypt-rsa.Repository.Infra/encrypt-rsa.Repository.Infra.csproj",
       "msbuildProject": "../encrypt-rsa.Repository.Infra/encrypt-rsa.Repository.Infra.csproj"
+    },
+    "RSA-provider/1.0.0": {
+      "type": "project",
+      "path": "../RSA-provider/RSA-provider.csproj",
+      "msbuildProject": "../RSA-provider/RSA-provider.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10383,6 +10398,7 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
       "Newtonsoft.Json >= 13.0.1",
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.2",
+      "RSA-provider >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "encrypt-rsa.BLL >= 1.0.0",
       "encrypt-rsa.BLL.Infra >= 1.0.0",
@@ -10436,6 +10452,9 @@
             },
             "D:\\Projetos\\encrypt-rsa\\encrypt-rsa.Repository\\encrypt-rsa.Repository.csproj": {
               "projectPath": "D:\\Projetos\\encrypt-rsa\\encrypt-rsa.Repository\\encrypt-rsa.Repository.csproj"
+            },
+            "D:\\Projetos\\encrypt-rsa\\RSA-provider\\RSA-provider.csproj": {
+              "projectPath": "D:\\Projetos\\encrypt-rsa\\RSA-provider\\RSA-provider.csproj"
             }
           }
         }
