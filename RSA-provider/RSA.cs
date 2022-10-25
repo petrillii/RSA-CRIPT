@@ -9,11 +9,11 @@ namespace SharpRSA
     public static class RSA
     {
         private static readonly Encoding Encoding = Encoding.Unicode;
-        //Generates a keypair of the required bit length, and returns it.
+        //GERA O PAR DE CHAVES COM O TAMANHO DE BITS.
         public static KeyPair GenerateKeyPair(KeySize size) => GenerateKeyPair((int)size);
         public static KeyPair GenerateKeyPair(int bitlength)
         {
-            //Generating primes, checking if the GCD of (n-1)(p-1) and e is 1.
+            //GERA OS PRIMOS E VERIFICA SE O MAIOR DIVISOR COMUM DO TOTIENTE É = 1.
             BigInteger q, p, n, x, d = new BigInteger();
             do
             {
@@ -35,16 +35,16 @@ namespace SharpRSA
             return KeyPair.Generate(n, d);
         }
 
-        //Finds a prime of the given bit length, to be used as n and p in RSA key calculations.
+        //RETORNA O PRIMO DO COMPRIMENTO FORNECIDO PARA N OU P
         public static BigInteger FindPrime(int bitlength)
         {
-            //Generating a random number of bit length.
+            //GERA NUMERO ALEATORIO COM O NUMERO DE BITS FORNECIDO.
             if (bitlength % 8 != 0)
             {
-                throw new Exception("Invalid bit length for key given, cannot generate primes.");
+                throw new Exception("Valor não divisivel por 8");
             }
 
-            //Filling bytes with pseudorandom.
+            //PREENCHE OS BYTES CM PSEUDOALEATORIOS.
             byte[] randomBytes = new byte[(bitlength / 8) + 1];
             Maths.rand.NextBytes(randomBytes);
             //Making the extra byte 0x0 so the BigInts are unsigned (little endian).

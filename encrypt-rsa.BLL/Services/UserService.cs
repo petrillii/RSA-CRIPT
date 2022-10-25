@@ -33,9 +33,9 @@ namespace encrypt_rsa.BLL.Services
 
             UserDto _user = mapper.Map<AuthenticateUserDto, UserDto>(user);
 
-            _user.password = rsaService.EncryptText(_userEntity.password.ToString()).TextoDescriptografado;
+            byte[] pswdCrypt = rsaService.EncryptText(user.password).TextoCriptografado;
 
-            if (_userEntity.password.ToString() != _user.password.ToString())
+            if (_userEntity.password != pswdCrypt)
             {
                 throw new ArgumentException("Email ou senha incorretos!");
             }
