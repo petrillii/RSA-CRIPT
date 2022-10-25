@@ -26,11 +26,16 @@ namespace encrypt_rsa.BLL.Services
         {
             UserModel _userEntity = await userRepo.GetUserByEmail(user.email);
 
+            if (_userEntity == null)
+            {
+                throw new ArgumentException("Email ou senha incorretos!");
+            }
+
             UserDto _user = mapper.Map<AuthenticateUserDto, UserDto>(user);
 
-            _userEntity.password = rsaService.DecryptPassword(_userEntity.password);
+            _user.password = rsaService.EncryptText(_userEntity.password.ToString()).TextoDescriptografado;
 
-            if (_userEntity.password != _user.password)
+            if (_userEntity.password.ToString() != _user.password.ToString())
             {
                 throw new ArgumentException("Email ou senha incorretos!");
             }
@@ -47,8 +52,8 @@ namespace encrypt_rsa.BLL.Services
             {
                 throw new ArgumentException("Usuário com email já cadastrado!");
             }
-            UserModel _user = mapper.Map<UserDto, UserModel>(user);
-            _user.password = rsaService.EncryptPassword(user.password);
+            UserModel _user = new UserModel(user.name, user.email);
+            _user.password = rsaService.EncryptText(user.password).TextoCriptografado;
             await userRepo.Create(_user);
         }
     }

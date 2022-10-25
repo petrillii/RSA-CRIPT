@@ -20,30 +20,17 @@ namespace encrypt_rsa.Controllers
             rsaService = _rsaService;
         }
 
-        [HttpPost("Criptografar")]
-        public async Task<ActionResult<string>> EncryptRSA(string msg)
+        [HttpPost]
+        public async Task<ActionResult<RSADto>> EncryptRSA(string msg)
         {
             try
             {
-                return rsaService.EncryptPassword(msg);
+                return rsaService.EncryptText(msg);
             }
             catch(Exception ex)
             {
                 return BadRequest(ex.Message);
             }            
-        }
-
-        [HttpPost("Descriptografar")]
-        public async Task<ActionResult<string>> DecryptRSA(string msg)
-        {
-            try
-            {
-                return rsaService.DecryptPassword(msg);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
         }
     }
 }

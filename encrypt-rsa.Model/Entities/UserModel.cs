@@ -11,10 +11,15 @@ namespace encrypt_rsa.Model.Entities
     [Table("Users")]
     public class UserModel
     {
+        public UserModel(string name, string email)
+        {
+            Name = name;
+            this.email = email;
+        }
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public string email { get; set; }
-        public string password { get; set; }
+        public byte[] password { get; set; }
     }
 }

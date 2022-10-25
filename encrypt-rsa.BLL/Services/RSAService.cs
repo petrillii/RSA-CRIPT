@@ -13,56 +13,29 @@ namespace encrypt_rsa.BLL.Services
 {
     public class RSAService : IRSAService
     {
-        const int P = 17;
-        const int Q = 23;
-        const int N = (P * Q);
-        const int totienteN = (P - 1) * (Q - 1);
-        const int E = 3;
-        public string EncryptPassword(string password)
+        public RSADto EncryptText(string text)
         {
-            int D = PrivateKey();
             try
             {
-                return Encrypt(password);
+                return Encrypt(text);
             }
             catch (Exception ex)
             {
                 throw new ArgumentException("Erro ao criptografar texto");
             }
         }
-        public string DecryptPassword(string password)
-        {
-            int D = PrivateKey();
-            try
-            {
-                return Decrypt(password, D);
-            }
-            catch (Exception ex)
-            {
-                throw new ArgumentException("Erro ao descriptografar o text");
-            }
-        }
 
-        public bool ValidatePassword(string normalPassword, string rsaPassword)
+        public RSADto Encrypt(string text)
         {
-            throw new NotImplementedException();
-        }
+            const int P = 17;
+            const int Q = 19;
+            const int N = (P * Q);
+            const int totienteN = (P - 1) * (Q - 1);
+            int E = GeneratePublicKey(totienteN, N);
+            int D = PrivateKey(totienteN, E);
 
-        public int PrivateKey()
-        {
-            int d = 0;
-            while ((d * E) % totienteN != 1)
-            {
-                d += 1;
-            }
-            return d;
-        }
-
-        public string Encrypt(string text)
-        {
-            byte[] raw;
-            string msg = "";
             List<int> ASCIIList = new List<int>();
+            List<int> cryptList = new List<int>();
 
             for (int i = 0; i < text.Length; i++)
             {
@@ -71,29 +44,61 @@ namespace encrypt_rsa.BLL.Services
             foreach (int obj in ASCIIList)
             {
                 int ascii = obj;
-                int k = Convert.ToInt32(Math.Pow(ascii, (double)E) % N);
-                msg += Convert.ToChar(k);
+                cryptList.Add(Convert.ToInt32(Math.Pow(ascii, (double)E) % N));
             }
-            return msg;
+
+            byte[] bytes = cryptList.SelectMany(i => BitConverter.GetBytes(i)).ToArray();
+
+            string textDecrypt = Decrypt(bytes, N, D);
+
+            RSADto rsaMsg = new RSADto(bytes, textDecrypt);
+
+            return rsaMsg;
         }
 
-        public string Decrypt(string encryptText, int D)
+        public string Decrypt(byte[] text, int N, int D)
         {
-            string decryptText = "";
-
             List<int> listDecrypt = new List<int>();
+            List<int> textDecrypt = new List<int>();
 
-            for (int i = 0; i < encryptText.Length; i++)
+            for (int i = 0; i < text.Length; i++)
             {
-                listDecrypt.Add(encryptText[i]);
+                listDecrypt.Add(text[i]);
             }
             foreach (int obj in listDecrypt)
             {
                 int ascii = obj;
-                int k = Convert.ToInt32(Math.Pow(ascii, (double)D) % N);
-                decryptText += (char)k;
+                double k = (Convert.ToInt32(Math.Pow(ascii, (double)D) % N));
+                textDecrypt.Add((int)k);
             }
-            return decryptText;
+
+            byte[] bytes = textDecrypt.SelectMany(i => BitConverter.GetBytes(i)).ToArray();
+            string textoDescriptografado = Encoding.Default.GetString(bytes).Replace("\u0000", "");
+
+            return textoDescriptografado;
+        }
+
+        public int GeneratePublicKey(int totienteN, int N)
+        {
+            while (true)
+            {
+                Random numRandom = new Random();
+                int e = numRandom.Next(2, N);
+                if (Mdc(N, e) == 1)
+                {
+                    return e;
+                }
+            }
+        }
+
+        public int PrivateKey(int totiente, int E)
+        {
+            int d = 0;
+            while ((d * E) % totiente != 1)
+            {
+                d += 1;
+            }
+            return d;
         }
 
         public int Mdc(int n1, int n2)

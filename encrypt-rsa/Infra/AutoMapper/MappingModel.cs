@@ -9,6 +9,7 @@ namespace encrypt_rsa.Infra.AutoMapper
         public MappingModel()
         {
             CreateMap<UserModel, UserDto>().ReverseMap();
+            CreateMap<UserDto, UserModel > ().ReverseMap();
             CreateMap<UserDto, AuthenticateUserDto>().ReverseMap();
         }
     }
